@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Catálogo de pastas de dientes de lujo de la marca Clean Teeth -->
+<catalogo propietario="alejandro-sanchez0017">
+  <pasta id="P01">
+    <nombre>Clean Teeth Fresh Mint</nombre>
+  </pasta>
+  <pasta id="P02">
+    <nombre>Clean Teeth Whitening Pearl</nombre>
+  </pasta>
+  <pasta id="P03">
+    <nombre>Clean Teeth Sensitive Care</nombre>
+  </pasta>
+</catalogo>
