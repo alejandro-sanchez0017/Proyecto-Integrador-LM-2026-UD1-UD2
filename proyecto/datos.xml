@@ -2,22 +2,22 @@
 <!-- Catálogo de pastas de dientes de lujo de la marca Clean Teeth -->
 <catalogo propietario="alejandro-sanchez0017">
   <pasta id="P01">
-    <nombre>Clean Teeth Fresh Mint</nombre>
-    <sabor>Menta fresca</sabor>
-    <precio moneda="EUR">24.90</precio>
-    <volumen unidad="ml">75.0</volumen>
-    <destacado/>
+      <nombre>Clean Teeth Fresh Mint</nombre>
+      <sabor>Menta fresca</sabor>
+      <precio moneda="EUR">24.90</precio>
+      <cantidad unidad="ml">75.0</cantidad>
+      <destacado/>
   </pasta>
   <pasta id="P02">
-    <nombre>Clean Teeth Whitening Pearl</nombre>
-    <sabor>Menta y perla</sabor>
-    <precio moneda="EUR">29.50</precio>
-    <volumen unidad="ml">75.0</volumen>
+      <nombre>Clean Teeth Whitening Pearl</nombre>
+      <sabor>Menta y perla</sabor>
+      <precio moneda="EUR">29.50</precio>
+      <cantidad unidad="ml">75.0</cantidad>
   </pasta>
   <pasta id="P03">
-    <nombre>Clean Teeth Sensitive Care</nombre>
-    <sabor>Menta suave</sabor>
-    <precio moneda="EUR">27.95</precio>
-    <volumen unidad="ml">75.0</volumen>
+      <nombre>Clean Teeth Sensitive Care</nombre>
+      <sabor>Menta suave</sabor>
+      <precio moneda="EUR">27.95</precio>
+      <cantidad unidad="ml">75.0</cantidad>
   </pasta>
 </catalogo>
