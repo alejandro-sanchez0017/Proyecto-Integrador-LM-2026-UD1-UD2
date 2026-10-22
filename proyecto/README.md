@@ -12,7 +12,7 @@ de dientes de lujo con distintas variedades para cada necesidad.
 
 ## Palabra del día
 
-meta
+contexto
 
 ## Qué he hecho en esta entrega
 
