@@ -29,3 +29,11 @@ Cosas que le faltan a mi `index.html`:
 - Agrupar las secciones del `<body>` dentro de bloques `<div>` comentados y añadir subtítulos `<h3>` sin saltos de jerarquía.
 - Añadir una separación con `<hr>`, una cita con `<blockquote>`, una ficha en columnas con `<pre>` y entidades HTML como `&copy;` y `&euro;`.
 
+## Mapa del sitio
+
+| Fichero | title | Qué contiene |
+| :--- | :--- | :--- |
+| `index.html` | Inicio \| Clean Teeth | Portada: presentación, quiénes somos, variedades, opinión, ficha resumen y enlaces. |
+| `catalogo.html` | Catálogo \| Clean Teeth | Todos los elementos del fichero `datos.xml` con su id, nombre, sabor, precio y cantidad. |
+| `cuidados.html` | Cuidados \| Clean Teeth | Recomendaciones de cepillado diario, beneficios de cada gama y cita de especialista. |
+| `contacto.html` | Contacto \| Clean Teeth | Información de atención al cliente, puntos de venta y horario en columnas. |
