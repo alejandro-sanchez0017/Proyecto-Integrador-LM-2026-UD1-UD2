@@ -21,3 +21,11 @@ una imagen del producto, una lista de tres pastas y dos enlaces.
 También he creado `datos.xml`, un catálogo con las tres pastas, cada
 una con su id, nombre, sabor, precio y volumen. He comprobado que el
 XML no tiene errores y que la página se ve bien con Live Server.
+
+## UD3 · Estructura HTML
+
+Cosas que le faltan a mi `index.html`:
+- Completar el `<head>` con el formato de título `Inicio | Clean Teeth` y los metadatos `description`, `keywords` y `author`.
+- Agrupar las secciones del `<body>` dentro de bloques `<div>` comentados y añadir subtítulos `<h3>` sin saltos de jerarquía.
+- Añadir una separación con `<hr>`, una cita con `<blockquote>`, una ficha en columnas con `<pre>` y entidades HTML como `&copy;` y `&euro;`.
+
