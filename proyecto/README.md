@@ -12,7 +12,9 @@ de dientes de lujo con distintas variedades para cada necesidad.
 
 ## Palabra del día
 
-contexto
+día 
+
+Fecha de actualización de la palabra del día 03/11/2026
 
 ## Qué he hecho en esta entrega
 
@@ -50,3 +52,7 @@ Cosas que le faltan a mi `index.html`:
 ### Qué he hecho en esta unidad
 
 En esta unidad he completado la cabecera de `index.html` con todos los metadatos y he organizado el cuerpo en bloques `div` comentados respetando la estructura de títulos `h1`, `h2` y `h3`. También he añadido una cita con `blockquote`, una tabla con `pre`, entidades HTML y he creado el mapa del sitio junto con las páginas `catalogo.html` (con los datos de `datos.xml`), `cuidados.html` y `contacto.html`.
+
+## UD5 · Tablas y formularios
+
+En la página `catalogo.html` voy a poner una tabla comparativa con las pastas de dientes de Clean Teeth, su gama, sabor, formato y precio. El formulario de `contacto.html` servirá para que los clientes puedan hacer consultas, pedir muestras o reservar packs de productos.
