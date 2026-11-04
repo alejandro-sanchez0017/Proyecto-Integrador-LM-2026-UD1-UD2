@@ -14,7 +14,7 @@ de dientes de lujo con distintas variedades para cada necesidad.
 
 día 
 
-Fecha de actualización de la palabra del día 03/11/2026
+Fecha de actualización de la palabra del día: 03/11/2026
 
 ## Qué he hecho en esta entrega
 
