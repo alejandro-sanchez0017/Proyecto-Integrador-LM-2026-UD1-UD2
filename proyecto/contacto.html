@@ -6,116 +6,152 @@
   <title>Contacto | Clean Teeth</title>
   <meta name="description" content="Contacto y horario de atención al cliente de Clean Teeth.">
   <meta name="keywords" content="contacto, horario, atencion, pedidos, tienda">
-  <meta name="author" content="Alejandro Sánchez Nogales">
+  <meta name="author" content="alejandro-sanchez0017">
 </head>
 <body>
-  <!-- NAV: aquí irá el menú (UD4) -->
 
-  <!-- Cabecera de contacto -->
-  <div>
+  <!-- Cabecera y menú -->
+  <header>
     <h1>Contacto y atención al cliente</h1>
     <p>Si tienes dudas sobre nuestras pastas de dientes o quieres consultar puntos de distribución, estamos a tu disposición.</p>
-  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <hr>
 
-  <!-- Datos de contacto y horario en columnas -->
-  <div>
-    <h2>Horario y canales de contacto</h2>
-    <p>Puedes escribirnos o llamarnos dentro de nuestro horario habitual de oficina:</p>
+  <main>
+    <!-- Datos de contacto -->
+    <section>
+      <h2>Horario y canales de contacto</h2>
+      <p>Puedes escribirnos o llamarnos dentro de nuestro horario habitual de oficina:</p>
 <pre>
 DEPARTAMENTO          DÍAS                HORARIO         CORREO
 Atención al cliente   Lunes a Viernes     09:00 - 18:00   info@cleanteeth.es
 Pedidos y envíos      Lunes a Jueves      09:00 - 15:00   pedidos@cleanteeth.es
 Distribuidores        Viernes             10:00 - 14:00   tiendas@cleanteeth.es
 </pre>
-  </div>
+    </section>
 
-  <hr>
+    <hr>
 
-  <!-- Formulario de contacto y pedidos -->
-  <div>
-    <h2>Formulario de consulta y muestras</h2>
-    <p>Rellena este formulario para enviarnos tu consulta o solicitar muestras de nuestras pastas:</p>
-
-    <form action="#" method="post">
-      <fieldset>
-        <legend>Tus datos</legend>
-
-        <p>
-          <label for="nombre">Nombre completo:</label>
-          <input type="text" id="nombre" name="nombre" required maxlength="40" placeholder="Tu nombre y apellidos" autofocus>
-        </p>
-
-        <p>
-          <label for="correo">Correo electrónico:</label>
-          <input type="email" id="correo" name="correo" required placeholder="ejemplo@correo.com">
-        </p>
-
-        <p>
-          <label for="tel">Teléfono:</label>
-          <input type="tel" id="tel" name="tel" maxlength="15">
-        </p>
-
-        <p>
-          <label for="clave">Código de cliente VIP:</label>
-          <input type="password" id="clave" name="clave" minlength="6" required>
-        </p>
-      </fieldset>
-
-      <fieldset>
-        <legend>Tu consulta</legend>
-
-        <p>
-          <label for="pasta">Variedad Clean Teeth de interés:</label>
-          <select id="pasta" name="pasta">
-            <option value="p01" selected>Clean Teeth Fresh Mint</option>
-            <option value="p02">Clean Teeth Whitening Pearl</option>
-            <option value="p03">Clean Teeth Sensitive Care</option>
-            <option value="pack">Pack degustación 3 pastas</option>
-          </select>
-        </p>
-
-        <p>¿Qué deseas solicitar?</p>
-        <p>
-          <input type="checkbox" id="c1" name="extras" value="muestra" checked>
-          <label for="c1">Muestra de viaje</label>
-
-          <input type="checkbox" id="c2" name="extras" value="catalogo">
-          <label for="c2">Catálogo impreso</label>
-
-          <input type="checkbox" id="c3" name="extras" value="estuche">
-          <label for="c3">Estuche de regalo</label>
-        </p>
-
-        <p>Departamento al que diriges la consulta:</p>
-        <p>
-          <input type="radio" id="r1" name="departamento" value="atencion" checked>
-          <label for="r1">Atención al cliente</label>
-
-          <input type="radio" id="r2" name="departamento" value="pedidos">
-          <label for="r2">Pedidos y envíos</label>
-
-          <input type="radio" id="r3" name="departamento" value="distribuidores">
-          <label for="r3">Distribuidores</label>
-        </p>
-
-        <p>
-          <label for="msg">Mensaje:</label><br>
-          <textarea id="msg" name="msg" rows="5" cols="40" minlength="10" placeholder="Escribe aquí tu consulta o comentario..."></textarea>
-        </p>
-      </fieldset>
-
+    <!-- Formulario de contacto y pedidos -->
+    <section>
+      <h2>Formulario de consulta y muestras</h2>
+      
+      <!-- Elemento de medida (Reto 2) -->
       <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar">
+        <label for="valoracion">Satisfacción de nuestros clientes con el soporte:</label>
+        <meter id="valoracion" min="0" max="5" low="2" high="4" optimum="5" value="4.8">4.8/5</meter> (4.8/5)
       </p>
-    </form>
-  </div>
+
+      <p>Rellena este formulario para enviarnos tu consulta o solicitar muestras de nuestras pastas:</p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Tus datos personales</legend>
+
+          <p>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required maxlength="40" placeholder="Tu nombre y apellidos" autofocus>
+          </p>
+
+          <p>
+            <label for="correo">Correo electrónico:</label>
+            <!-- Input HTML5: email -->
+            <input type="email" id="correo" name="correo" required placeholder="ejemplo@correo.com">
+          </p>
+
+          <p>
+            <label for="tel">Teléfono:</label>
+            <!-- Input HTML5: tel -->
+            <input type="tel" id="tel" name="tel" maxlength="15" placeholder="600123456">
+          </p>
+
+          <p>
+            <label for="cp">Código Postal:</label>
+            <!-- Pattern y Title (Reto 2) -->
+            <input type="text" id="cp" name="cp" required pattern="[0-9]{5}" title="Debe contener exactamente 5 números (ejemplo: 28001)">
+          </p>
+
+          <p>
+            <label for="fecha_nac">Fecha de nacimiento:</label>
+            <!-- Input HTML5: date -->
+            <input type="date" id="fecha_nac" name="fecha_nac" required>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Tu consulta o pedido</legend>
+
+          <p>
+            <label for="pasta">Variedad Clean Teeth de interés:</label>
+            <select id="pasta" name="pasta">
+              <option value="p01" selected>Clean Teeth Fresh Mint</option>
+              <option value="p02">Clean Teeth Whitening Pearl</option>
+              <option value="p03">Clean Teeth Sensitive Care</option>
+              <option value="pack">Pack degustación 3 pastas</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="cantidad">Cantidad de tubos (para pedidos):</label>
+            <!-- Input HTML5: number con min, max y step -->
+            <input type="number" id="cantidad" name="cantidad" min="1" max="50" step="1" value="1">
+          </p>
+
+          <p>
+            <label for="color_caja">Si pides estuche, ¿qué color prefieres?</label>
+            <!-- Input HTML5: color -->
+            <input type="color" id="color_caja" name="color_caja" value="#20b2aa">
+          </p>
+
+          <p>¿Qué deseas solicitar?</p>
+          <p>
+            <input type="checkbox" id="c1" name="extras" value="muestra" checked>
+            <label for="c1">Muestra de viaje</label>
+
+            <input type="checkbox" id="c2" name="extras" value="catalogo">
+            <label for="c2">Catálogo impreso</label>
+
+            <input type="checkbox" id="c3" name="extras" value="estuche">
+            <label for="c3">Estuche de regalo</label>
+          </p>
+
+          <p>Departamento al que diriges la consulta:</p>
+          <p>
+            <input type="radio" id="r1" name="departamento" value="atencion" checked>
+            <label for="r1">Atención al cliente</label>
+
+            <input type="radio" id="r2" name="departamento" value="pedidos">
+            <label for="r2">Pedidos y envíos</label>
+
+            <input type="radio" id="r3" name="departamento" value="distribuidores">
+            <label for="r3">Distribuidores</label>
+          </p>
+
+          <p>
+            <label for="msg">Mensaje:</label><br>
+            <textarea id="msg" name="msg" rows="5" cols="40" minlength="10" placeholder="Escribe aquí tu consulta o comentario..." required></textarea>
+          </p>
+        </fieldset>
+
+        <p>
+          <input type="submit" value="Enviar formulario">
+          <input type="reset" value="Borrar datos">
+        </p>
+      </form>
+    </section>
+  </main>
 
   <!-- Pie de página -->
-  <div>
-    <p>&copy; 2026 Alejandro Sánchez Nogales</p>
-  </div>
+  <footer>
+    <p id="alejandro-sanchez0017">&copy; 2026 alejandro-sanchez0017</p>
+  </footer>
 </body>
 </html>
